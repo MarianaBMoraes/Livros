@@ -9,8 +9,7 @@ const model = (body, id = proxId++) => {
     body.curso != "" &&
     body.curso != undefined &&
     body.ano != undefined &&
-    body.ano > 0 &&
-    body.ano == Number
+    body.ano > 0
   ) {
     return {
       id,

@@ -8,7 +8,6 @@ const model = (body, id = proxId++) => {
     body.autor != undefined &&
     body.ano != undefined &&
     body.ano > 0 &&
-    body.ano == Number &&
     body.genero != "" &&
     body.genero != undefined
   ) {
